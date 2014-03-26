@@ -1,0 +1,6 @@
+# name :jinja: macro
+# key: macro
+# --
+{% macro ${1:macroname}(${2:arg1}) -%}
+$0
+{%- endmacro %}
